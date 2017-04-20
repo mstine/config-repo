@@ -4,7 +4,8 @@ logging:
       spring:
         cloud:
           samples: DEBUG
-
+configuration:
+  projectName: config-client
 fortune:
   fallbackFortune: The fog should lift today.
 
